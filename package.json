@@ -1,20 +1,26 @@
 {
-  "name": "gulp-template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "gulp": "^4.0.2"
-  },
-  "devDependencies": {
-    "gulp-minify-html": "^1.0.6",
-    "gulp-nunjucks-render": "^2.2.3",
-    "gulp-preprocess": "^4.0.2",
-	"gulp-htmlmin": "^5.0.1"
-  }
+	"name": "gulp-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"gulp": "^4.0.2",
+		"imagemin-webp": "^7.0.0"
+	},
+	"devDependencies": {
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-minify-html": "^1.0.6",
+		"gulp-nunjucks-render": "^2.2.3",
+		"gulp-preprocess": "^4.0.2",
+		"gulp-sass": "^5.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-webp": "^4.0.1",
+		"sass": "^1.54.9"
+	}
 }
